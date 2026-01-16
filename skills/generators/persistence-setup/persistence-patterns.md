@@ -559,6 +559,97 @@ actor BackgroundPersistence {
 }
 ```
 
+## Class Inheritance (iOS 17+)
+
+SwiftData supports class inheritance for hierarchical models.
+
+### When to Use Inheritance
+
+**Good use cases:**
+- Clear "IS-A" relationship (e.g., `BusinessTrip` IS-A `Trip`)
+- Models share fundamental properties but diverge for specialization
+- Need both deep searches (all properties) and shallow searches (subclass-specific)
+
+**Avoid inheritance when:**
+- Subclasses share only a few properties
+- A Boolean flag or enum would suffice
+- Protocol conformance is more appropriate
+
+### Inheritance Example
+
+```swift
+@Model
+class Trip {
+    var name: String
+    var destination: String
+    var startDate: Date
+    var endDate: Date
+
+    init(name: String, destination: String, startDate: Date, endDate: Date) {
+        self.name = name
+        self.destination = destination
+        self.startDate = startDate
+        self.endDate = endDate
+    }
+}
+
+@Model
+class BusinessTrip: Trip {
+    var purpose: String
+    var expenseCode: String
+
+    init(name: String, destination: String, startDate: Date, endDate: Date,
+         purpose: String, expenseCode: String) {
+        self.purpose = purpose
+        self.expenseCode = expenseCode
+        super.init(name: name, destination: destination, startDate: startDate, endDate: endDate)
+    }
+}
+
+@Model
+class PersonalTrip: Trip {
+    var reason: String
+
+    init(name: String, destination: String, startDate: Date, endDate: Date, reason: String) {
+        self.reason = reason
+        super.init(name: name, destination: destination, startDate: startDate, endDate: endDate)
+    }
+}
+```
+
+### Type-Based Queries
+
+```swift
+// Query all trips (includes subclasses)
+@Query(sort: \Trip.startDate)
+var allTrips: [Trip]
+
+// Query specific subclass using type predicate
+let businessTripPredicate = #Predicate<Trip> { $0 is BusinessTrip }
+@Query(filter: businessTripPredicate)
+var businessTrips: [Trip]
+
+// Combined filtering with subclass properties
+let vacationPredicate = #Predicate<Trip> {
+    if let personal = $0 as? PersonalTrip {
+        return personal.reason == "vacation"
+    }
+    return false
+}
+```
+
+### Polymorphic Relationships
+
+```swift
+@Model
+class TravelPlanner {
+    var name: String
+
+    @Relationship(deleteRule: .cascade)
+    var trips: [Trip] = []  // Can contain BusinessTrip and PersonalTrip
+}
+```
+
 ## Testing
 
 ### In-Memory Container
