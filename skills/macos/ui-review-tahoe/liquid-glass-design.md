@@ -2,6 +2,8 @@
 
 Modern design language for macOS 26 (Tahoe), iOS 26, and iPadOS 26.
 
+> **Note:** For the new `.glassEffect()` API introduced in iOS/macOS 26, see the updated skill at `skills/design/liquid-glass/SKILL.md` which covers GlassEffectContainer, morphing transitions, and interactive effects.
+
 ## Core Principles
 
 ### 1. Transparency and Depth
