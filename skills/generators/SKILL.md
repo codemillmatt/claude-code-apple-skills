@@ -1,6 +1,6 @@
 ---
 name: generators
-description: Code generator skills that produce production-ready Swift code for common app components. Use when user wants to add logging, analytics, onboarding, review prompts, or other common features.
+description: Code generator skills that produce production-ready Swift code for common app components. Use when user wants to add logging, analytics, onboarding, review prompts, networking, authentication, paywalls, settings, or other common features.
 allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
@@ -67,6 +67,34 @@ Smart App Store review prompts.
 - Configurable trigger conditions
 - Smart timing logic
 - Debug override for testing
+
+### networking-layer/
+Protocol-based API client with async/await.
+- Clean APIClient protocol for mocking/swapping
+- Type-safe endpoint definitions
+- Comprehensive error handling
+- Environment-based configuration
+
+### auth-flow/
+Complete authentication flow.
+- Sign in with Apple integration
+- Biometric authentication (Face ID/Touch ID)
+- Secure Keychain storage
+- Credential state monitoring
+
+### paywall-generator/
+StoreKit 2 subscription paywall.
+- Full StoreKit 2 implementation
+- Product loading, purchasing, restoring
+- Subscription status with Environment
+- Beautiful paywall UI
+
+### settings-screen/
+Complete settings screen with modular sections.
+- Centralized AppSettings with @AppStorage
+- Appearance, Notifications, Account, About, Legal sections
+- Cross-platform (iOS/macOS)
+- Reusable row components
 
 ## How to Use
 

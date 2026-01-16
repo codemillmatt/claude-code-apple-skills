@@ -11,11 +11,11 @@ A comprehensive collection of Claude Code skills for iOS, macOS, and product dev
 | **iOS** | 3 skills | iOS app planning, code review, UI/UX review |
 | **macOS** | 8 skills | macOS development, Tahoe APIs, SwiftData, AppKit bridge |
 | **Product** | 10 skills | Idea validation to App Store (complete workflow) |
-| **Generators** | 4 skills | Code generators for logging, analytics, onboarding, reviews |
+| **Generators** | 8 skills | Code generators for logging, analytics, onboarding, reviews, networking, auth, paywall, settings |
 | **Release Review** | 1 skill | Pre-release audit (security, privacy, UX, distribution) |
 | **Shared** | 1 skill | Skill creation templates |
 
-**Total: 27 skills** covering the entire Apple development lifecycle.
+**Total: 31 skills** covering the entire Apple development lifecycle.
 
 ## Directory Structure
 
@@ -53,7 +53,11 @@ skills/
 │   ├── logging-setup/          # Replace print() with Logger
 │   ├── analytics-setup/        # Protocol-based analytics (swappable)
 │   ├── onboarding-generator/   # Multi-step onboarding flow
-│   └── review-prompt/          # Smart App Store review prompts
+│   ├── review-prompt/          # Smart App Store review prompts
+│   ├── networking-layer/       # Protocol-based API client
+│   ├── auth-flow/              # Sign in with Apple, biometrics
+│   ├── paywall-generator/      # StoreKit 2 subscription paywalls
+│   └── settings-screen/        # Complete settings UI
 │
 ├── release-review/             # Pre-release audit
 │   ├── SKILL.md                # Entry point and workflow
@@ -115,7 +119,7 @@ Each category directory contains a **SKILL.md** entry point that acts as a route
 ├── ios/SKILL.md          → Routes to app-planner/, coding-best-practices/, ui-review/
 ├── macos/SKILL.md        → Routes to 8 sub-skills (SwiftData, Tahoe APIs, etc.)
 ├── product/SKILL.md      → Routes to 10 product workflow skills
-├── generators/SKILL.md   → Code generators (logging, analytics, onboarding, reviews)
+├── generators/SKILL.md   → Code generators (logging, analytics, onboarding, reviews, networking, auth, paywall, settings)
 ├── release-review/SKILL.md → 6-phase pre-release audit (security, privacy, UX, distribution, API)
 └── shared/SKILL.md       → Skill creation templates
 ```
@@ -360,6 +364,63 @@ Smart App Store review prompts with platform detection.
 - Platform detection (skips for non-App Store macOS)
 
 **Trigger phrases:** "add review prompt", "request ratings", "App Store reviews"
+
+#### `generators/networking-layer`
+Protocol-based API client with async/await.
+
+**Features:**
+- Clean `APIClient` protocol for easy mocking/swapping
+- Type-safe endpoint definitions with `APIEndpoint`
+- Comprehensive error handling with `NetworkError`
+- Environment-based configuration (dev/staging/prod)
+- Built-in logging and request validation
+
+**Templates:** APIClient.swift, APIEndpoint.swift, NetworkError.swift, APIConfiguration.swift, MockAPIClient.swift
+
+**Trigger phrases:** "add networking layer", "create API client", "set up network requests"
+
+#### `generators/auth-flow`
+Complete authentication flow with Sign in with Apple and biometrics.
+
+**Features:**
+- Sign in with Apple integration (ASAuthorizationController)
+- Biometric authentication (Face ID/Touch ID)
+- Secure credential storage (Keychain)
+- Automatic credential state monitoring
+- SwiftUI button components
+
+**Templates:** AuthenticationManager.swift, KeychainManager.swift, SignInWithAppleManager.swift, BiometricAuthManager.swift, SignInWithAppleButton.swift
+
+**Trigger phrases:** "add authentication", "Sign in with Apple", "add Face ID login"
+
+#### `generators/paywall-generator`
+StoreKit 2 subscription paywall with modern APIs.
+
+**Features:**
+- Full StoreKit 2 implementation
+- Product loading, purchasing, restoring
+- Subscription status tracking with Environment
+- Beautiful paywall UI with plan selection
+- iOS 18.4+ features documented (SubscriptionOfferView)
+
+**Templates:** StoreKitManager.swift, Products.swift, SubscriptionStatus.swift, PaywallView.swift, SubscriptionButton.swift
+
+**Trigger phrases:** "add paywall", "subscription screen", "in-app purchases"
+
+#### `generators/settings-screen`
+Complete settings screen with modular sections.
+
+**Features:**
+- Centralized AppSettings with @AppStorage
+- Appearance (theme, haptics, sounds)
+- Notifications (with permission handling)
+- Account management
+- About and Legal sections
+- Cross-platform (iOS NavigationStack, macOS Settings scene)
+
+**Templates:** SettingsView.swift, AppSettings.swift, SettingsRow.swift, AppearanceSettingsView.swift, AccountSettingsView.swift, NotificationsSettingsView.swift, AboutSettingsView.swift, LegalSettingsView.swift
+
+**Trigger phrases:** "add settings screen", "create preferences", "settings UI"
 
 ---
 
