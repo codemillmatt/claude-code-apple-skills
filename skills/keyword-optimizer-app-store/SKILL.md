@@ -1,3 +1,8 @@
+---
+name: keyword-optimizer-app-store
+description: Optimize app title, subtitle, and keywords for maximum App Store discoverability. Use when user is launching new app, wants to improve search rankings, or asks about ASO.
+---
+
 # Keyword Optimizer
 
 Optimize app title, subtitle, and keywords for maximum App Store discoverability.

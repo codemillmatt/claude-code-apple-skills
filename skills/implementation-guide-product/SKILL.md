@@ -1,7 +1,6 @@
 ---
-name: implementation-guide
+name: implementation-guide-product
 description: Generates detailed implementation guide with pseudo-code and step-by-step development instructions. Creates IMPLEMENTATION_GUIDE.md from PRD, Architecture, and UX specs. Use when creating development roadmap.
-allowed-tools: [Read, Write, Glob, Grep, AskUserQuestion]
 ---
 
 # Implementation Guide Skill

@@ -1,3 +1,8 @@
+---
+name: screenshot-planner-app-store
+description: Plan compelling App Store screenshot sequences that showcase your app's value. Use when user prepares App Store assets or wants to improve screenshot conversion.
+---
+
 # Screenshot Planner
 
 Plan compelling App Store screenshot sequences that showcase your app's value.

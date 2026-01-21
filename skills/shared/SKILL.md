@@ -1,7 +1,6 @@
 ---
 name: shared
 description: Platform-agnostic skills including skill creation templates and best practices. Use when creating new skills or improving existing ones.
-allowed-tools: [Read, Write, Glob, Grep, Bash]
 ---
 
 # Shared Skills

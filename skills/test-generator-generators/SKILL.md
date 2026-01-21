@@ -1,3 +1,8 @@
+---
+name: test-generator-generators
+description: Generate test templates for unit tests, integration tests, and UI tests in iOS/macOS apps. Use when user wants to add tests or mentions TDD/XCTest.
+---
+
 # Test Generator
 
 Generate test templates for unit tests, integration tests, and UI tests in iOS/macOS apps.

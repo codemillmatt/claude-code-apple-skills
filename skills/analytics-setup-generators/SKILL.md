@@ -1,7 +1,6 @@
 ---
-name: analytics-setup
+name: analytics-setup-generators
 description: Generates protocol-based analytics infrastructure with swappable providers (TelemetryDeck, Firebase, Mixpanel). Use when user wants to add analytics, track events, or set up telemetry.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Analytics Setup Generator

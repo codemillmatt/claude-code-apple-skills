@@ -1,7 +1,6 @@
 ---
 name: apple-intelligence
 description: Apple Intelligence skills for on-device AI features including Foundation Models, Visual Intelligence, and intelligent assistants. Use when implementing AI-powered features.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Apple Intelligence Skills

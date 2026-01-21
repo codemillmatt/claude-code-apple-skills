@@ -1,3 +1,8 @@
+---
+name: ci-cd-setup-generators
+description: Generate CI/CD configuration for automated builds, tests, and distribution of iOS/macOS apps. Use when user wants to automate builds, mentions GitHub Actions/Xcode Cloud/fastlane, or needs TestFlight/App Store deployment.
+---
+
 # CI/CD Setup Generator
 
 Generate CI/CD configuration for automated builds, tests, and distribution of iOS/macOS apps.

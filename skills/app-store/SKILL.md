@@ -1,7 +1,6 @@
 ---
 name: app-store
 description: App Store optimization skills for descriptions, screenshots, keywords, and review responses. Use when user needs help with App Store presence, ASO, or customer communication.
-allowed-tools: [Read, Write, Edit, Glob, Grep, AskUserQuestion, WebSearch]
 ---
 
 # App Store Optimization Skills

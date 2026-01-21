@@ -1,3 +1,8 @@
+---
+name: review-response-writer-app-store
+description: Write professional, empathetic responses to App Store reviews that build trust and turn critics into fans. Use when user needs to respond to reviews or wants review management strategy.
+---
+
 # Review Response Writer
 
 Write professional, empathetic responses to App Store reviews that build trust and turn critics into fans.

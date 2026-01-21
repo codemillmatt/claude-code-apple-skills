@@ -1,7 +1,6 @@
 ---
-name: settings-screen
+name: settings-screen-generators
 description: Generates a complete settings screen for iOS/macOS apps with common sections. Use when user wants to add settings, preferences, or configuration UI.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Settings Screen Generator

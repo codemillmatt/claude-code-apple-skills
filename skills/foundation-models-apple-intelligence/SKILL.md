@@ -1,7 +1,6 @@
 ---
-name: foundation-models
+name: foundation-models-apple-intelligence
 description: On-device LLM integration using Apple's Foundation Models framework. Use when implementing AI text generation, structured output, or tool calling.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Foundation Models

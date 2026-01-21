@@ -1,7 +1,6 @@
 ---
-name: release-spec
+name: release-spec-product
 description: Generates App Store release documentation including submission guide, assets, privacy compliance, and marketing strategy. Creates RELEASE_SPEC.md for app launch. Use when preparing for App Store submission.
-allowed-tools: [Read, Write, Glob, Grep, AskUserQuestion]
 ---
 
 # Release Specification Skill

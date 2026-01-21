@@ -1,3 +1,8 @@
+---
+name: push-notifications-generators
+description: Generate push notification infrastructure with APNs registration, handling, and rich notifications. Use when user wants to add push notifications or mentions APNs.
+---
+
 # Push Notifications Generator
 
 Generate push notification infrastructure with APNs registration, handling, and rich notifications.

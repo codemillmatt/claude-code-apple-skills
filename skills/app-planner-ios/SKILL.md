@@ -1,7 +1,6 @@
 ---
-name: app-planner
+name: app-planner-ios
 description: Guides you through comprehensive iOS/Swift app planning and analysis. Use for new apps (concept to architecture) or existing apps (audit current state, plan improvements, evaluate tech stack). Covers product planning, technical decisions, UI/UX design, and distribution strategy.
-allowed-tools: [Read, Write, Glob, Grep, AskUserQuestion]
 ---
 
 # App Planner Skill

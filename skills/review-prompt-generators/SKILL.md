@@ -1,7 +1,6 @@
 ---
-name: review-prompt
+name: review-prompt-generators
 description: Generates smart App Store review prompt infrastructure with configurable conditions and platform detection. Use when user wants to add review prompts, request ratings, or implement StoreKit reviews.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Review Prompt Generator

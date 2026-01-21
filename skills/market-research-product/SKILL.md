@@ -1,7 +1,6 @@
 ---
-name: market-research
+name: market-research-product
 description: Deep market analysis for iOS/macOS apps including market sizing (TAM/SAM/SOM), growth trends, market maturity, entry barriers, distribution channels, and revenue potential. Use when user asks for market research, market size, market opportunity, growth potential, TAM/SAM/SOM, or market trends.
-allowed-tools: Bash(product-agent:*), Read, WebSearch, WebFetch
 ---
 
 # Market Research Skill
