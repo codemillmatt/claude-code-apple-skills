@@ -31,13 +31,13 @@ Copy only the skills you need:
 
 ```bash
 # Just coding-best-practices
-cp -r /path/to/claude-code-ios-skills/skills/coding-best-practices .claude/skills/
+cp -r /path/to/claude-code-ios-skills/skills/coding-best-practices-ios .claude/skills/
 
 # Just ui-review
-cp -r /path/to/claude-code-ios-skills/skills/ui-review .claude/skills/
+cp -r /path/to/claude-code-ios-skills/skills/ui-review-ios .claude/skills/
 
 # Just skill-creator
-cp -r /path/to/claude-code-ios-skills/skills/skill-creator .claude/skills/
+cp -r /path/to/claude-code-ios-skills/skills/skill-creator-shared .claude/skills/
 ```
 
 ## Verification (30 seconds)
@@ -46,7 +46,7 @@ Check that skills are installed:
 
 ```bash
 ls .claude/skills/
-# Should show: coding-best-practices  ui-review  skill-creator
+# Should show: coding-best-practices-ios  ui-review-ios  skill-creator-shared
 ```
 
 ## First Use (2 minutes)
@@ -202,7 +202,7 @@ Reviewing: AddExpenseView.swift
 **Solution**:
 ```bash
 # Ensure all files copied
-ls .claude/skills/coding-best-practices/
+ls .claude/skills/coding-best-practices-ios/
 # Should show: SKILL.md, swift-patterns.md, swiftui-patterns.md, etc.
 ```
 
@@ -223,10 +223,10 @@ Edit skill files to match your project's standards:
 
 ```bash
 # Edit coding standards
-vim .claude/skills/coding-best-practices/swift-patterns.md
+vim .claude/skills/coding-best-practices-ios/swift-patterns.md
 
 # Edit UI guidelines
-vim .claude/skills/ui-review/hig-checklist.md
+vim .claude/skills/ui-review-ios/hig-checklist.md
 ```
 
 ### Create Your Own Skill
@@ -250,7 +250,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for details.
 
 - [Full README](../README.md)
 - [Contributing Guidelines](../CONTRIBUTING.md)
-- [Skill Templates](../skills/skill-creator/)
+- [Skill Templates](../skills/skill-creator-shared/)
 - [Example Output](examples/)
 
 ## Getting Help

@@ -14,12 +14,14 @@ This is a collection of Claude Code skills for Apple platform development (iOS, 
 
 ```
 skills/
-├── {category}/
+├── {skill-name}/
 │   ├── SKILL.md           # Entry point with YAML frontmatter
-│   └── {sub-skill}/
-│       ├── SKILL.md       # Sub-skill entry point
-│       └── *.md           # Supporting reference files
+│   ├── {reference-file}.md   # Supporting reference files
+│   └── templates/         # Optional templates directory
+│       └── *.swift        # Template files
 ```
+
+All skills are now at the first level under `skills/`. Skills that were previously nested follow the naming pattern `{original-name}-{category}` (e.g., `liquid-glass-design`, `app-planner-ios`).
 
 ### YAML Frontmatter (Required)
 
@@ -54,7 +56,7 @@ allowed-tools: [Read, Write, Edit, Glob, Grep, Bash]
 
 ## Creating New Skills
 
-Use `skills/shared/skill-creator/SKILL.md` as the guide. Key requirements:
+Use `skills/skill-creator-shared/SKILL.md` as the guide. Key requirements:
 
 1. **Simple skills** (< 400 lines): Single SKILL.md file
 2. **Complex skills** (> 400 lines): Modularize into SKILL.md + reference files

@@ -7,14 +7,14 @@ Future skills to be created based on Apple documentation.
 ### Apple Intelligence
 | Doc | Skill | Status |
 |-----|-------|--------|
-| FoundationModels-Using-on-device-LLM-in-your-app.md | `apple-intelligence/foundation-models` | ✅ Complete |
-| Implementing-Visual-Intelligence-in-iOS.md | `apple-intelligence/visual-intelligence` | ✅ Complete |
+| FoundationModels-Using-on-device-LLM-in-your-app.md | `foundation-models-apple-intelligence` | ✅ Complete |
+| Implementing-Visual-Intelligence-in-iOS.md | `visual-intelligence-apple-intelligence` | ✅ Complete |
 
 ### Design
 | Doc | Skill | Status |
 |-----|-------|--------|
-| SwiftUI-Implementing-Liquid-Glass-Design.md | `design/liquid-glass` | ✅ Complete |
-| AppKit-Implementing-Liquid-Glass-Design.md | `design/liquid-glass` | ✅ Complete |
+| SwiftUI-Implementing-Liquid-Glass-Design.md | `liquid-glass-design` | ✅ Complete |
+| AppKit-Implementing-Liquid-Glass-Design.md | `liquid-glass-design` | ✅ Complete |
 
 ---
 
@@ -57,8 +57,8 @@ Future skills to be created based on Apple documentation.
 
 | Doc | Proposed Skill | Description |
 |-----|----------------|-------------|
-| StoreKit-Updates.md | `generators/paywall-generator` | Update existing skill |
-| AppIntents-Updates.md | `apple-intelligence/app-intents` | Siri and Shortcuts updates |
+| StoreKit-Updates.md | `paywall-generator-generators` | Update existing skill |
+| AppIntents-Updates.md | `app-intents-apple-intelligence` | Siri and Shortcuts updates |
 | MapKit-GeoToolbox-PlaceDescriptors.md | `mapkit/geotoolbox` | Location and place features |
 
 ---
@@ -70,8 +70,8 @@ Future skills to be created based on Apple documentation.
 | Doc | Proposed Skill | Description |
 |-----|----------------|-------------|
 | Widgets-for-visionOS.md | `visionos/widgets` | visionOS widget development |
-| UIKit-Implementing-Liquid-Glass-Design.md | `design/liquid-glass` | Add UIKit section |
-| WidgetKit-Implementing-Liquid-Glass-Design.md | `design/liquid-glass` | Add WidgetKit section |
+| UIKit-Implementing-Liquid-Glass-Design.md | `liquid-glass-design` | Add UIKit section |
+| WidgetKit-Implementing-Liquid-Glass-Design.md | `liquid-glass-design` | Add WidgetKit section |
 
 #### Accessibility
 
