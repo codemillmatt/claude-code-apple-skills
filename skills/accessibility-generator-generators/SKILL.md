@@ -1,3 +1,8 @@
+---
+name: accessibility-generator-generators
+description: Generate accessibility infrastructure for VoiceOver, Dynamic Type, and accessibility features. Use when user wants to improve accessibility or mentions VoiceOver/Dynamic Type.
+---
+
 # Accessibility Generator
 
 Generate accessibility infrastructure for VoiceOver, Dynamic Type, and accessibility features.

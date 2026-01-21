@@ -1,7 +1,6 @@
 ---
-name: paywall-generator
+name: paywall-generator-generators
 description: Generates StoreKit 2 subscription paywall with modern SwiftUI views. Use when user wants to add subscriptions, paywall, or in-app purchases.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Paywall Generator

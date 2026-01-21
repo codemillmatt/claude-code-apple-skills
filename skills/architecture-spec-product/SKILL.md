@@ -1,7 +1,6 @@
 ---
-name: architecture-spec
+name: architecture-spec-product
 description: Generates technical architecture specification from PRD. Covers architecture pattern, tech stack, data models, and app structure. Use when creating ARCHITECTURE.md or designing system architecture.
-allowed-tools: [Read, Write, Glob, Grep, AskUserQuestion]
 ---
 
 # Architecture Spec Skill

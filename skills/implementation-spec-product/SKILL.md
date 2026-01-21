@@ -1,7 +1,6 @@
 ---
-name: implementation-spec
+name: implementation-spec-product
 description: Master orchestrator that generates all implementation specs (PRD, Architecture, UX, Implementation, Test, Release) from product plan. Use when generating complete specification package.
-allowed-tools: [Read, Write, Glob, Grep, AskUserQuestion]
 ---
 
 # Implementation Specification Orchestrator Skill

@@ -1,7 +1,6 @@
 ---
-name: product-agent
+name: product-agent-product
 description: Discover and validate product ideas, analyze markets, scope MVPs, and optimize app store presence for iOS/macOS apps. Use when user asks to discover, validate, assess, scope, or analyze product ideas, market opportunities, or when they mention "product agent", "app idea validation", "should I build this", "MVP", "market analysis", or "ASO".
-allowed-tools: Bash(product-agent:*), Read
 ---
 
 # Product Agent Skill

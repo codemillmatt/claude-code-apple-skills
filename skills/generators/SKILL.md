@@ -1,7 +1,6 @@
 ---
 name: generators
 description: Code generator skills that produce production-ready Swift code for common app components. Use when user wants to add logging, analytics, onboarding, review prompts, networking, authentication, paywalls, settings, persistence, error monitoring, CI/CD pipelines, localization, push notifications, deep linking, testing, accessibility, widgets, or feature flags.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Code Generators

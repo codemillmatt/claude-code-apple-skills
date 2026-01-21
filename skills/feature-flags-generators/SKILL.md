@@ -1,3 +1,8 @@
+---
+name: feature-flags-generators
+description: Generate feature flag infrastructure with local and remote configuration support. Use when user wants to control features remotely, mentions A/B testing, or needs gradual rollouts.
+---
+
 # Feature Flags Generator
 
 Generate feature flag infrastructure with local and remote configuration support.

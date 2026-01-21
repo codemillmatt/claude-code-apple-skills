@@ -1,7 +1,6 @@
 ---
-name: networking-layer
+name: networking-layer-generators
 description: Generates a protocol-based networking layer with async/await, error handling, and swappable implementations. Use when user wants to add API client, networking, or HTTP layer.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Networking Layer Generator

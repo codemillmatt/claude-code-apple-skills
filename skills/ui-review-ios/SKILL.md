@@ -1,7 +1,6 @@
 ---
-name: ui-review
+name: ui-review-ios
 description: Review SwiftUI code for iOS/watchOS Human Interface Guidelines compliance, font usage, Dynamic Type support, and accessibility. Use when user mentions UI review, HIG, accessibility audit, font checks, or wants to verify interface design against Apple standards.
-allowed-tools: [Read, Glob, Grep, WebFetch]
 ---
 
 # UI Review Skill

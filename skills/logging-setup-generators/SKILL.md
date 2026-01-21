@@ -1,7 +1,6 @@
 ---
-name: logging-setup
+name: logging-setup-generators
 description: Generates structured logging infrastructure using os.log/Logger to replace print() statements. Use when user wants to add proper logging, replace print statements, or set up app logging.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Logging Setup Generator

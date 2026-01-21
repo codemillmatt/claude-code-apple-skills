@@ -1,7 +1,6 @@
 ---
-name: error-monitoring
+name: error-monitoring-generators
 description: Generates protocol-based error/crash monitoring with swappable providers (Sentry, Crashlytics). Use when user wants to add crash reporting, error tracking, or production monitoring.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Error Monitoring Generator

@@ -1,7 +1,6 @@
 ---
-name: auth-flow
+name: auth-flow-generators
 description: Generates authentication infrastructure with Sign in with Apple, biometrics, and Keychain storage. Use when user wants to add authentication, login, or Sign in with Apple.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Auth Flow Generator

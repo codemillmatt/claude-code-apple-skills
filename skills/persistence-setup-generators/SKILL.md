@@ -1,7 +1,6 @@
 ---
-name: persistence-setup
+name: persistence-setup-generators
 description: Generates SwiftData or CoreData persistence layer with optional iCloud sync. Use when user wants to add local storage, data persistence, or cloud sync.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 ---
 
 # Persistence Setup Generator

@@ -1,7 +1,6 @@
 ---
-name: product-development
+name: product
 description: End-to-end product development for iOS/macOS apps. Covers market research, competitive analysis, PRD generation, architecture specs, UX design, implementation guides, testing, and App Store release. Use for product planning, validation, or generating specification documents.
-allowed-tools: [Read, Write, Glob, Grep, WebFetch, WebSearch, AskUserQuestion]
 ---
 
 # Product Development Expert

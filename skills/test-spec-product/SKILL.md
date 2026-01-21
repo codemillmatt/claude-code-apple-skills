@@ -1,7 +1,6 @@
 ---
-name: test-spec
+name: test-spec-product
 description: Generates comprehensive test specification with unit tests, UI tests, accessibility testing, and beta testing plan. Creates TEST_SPEC.md from PRD and implementation specs. Use when creating QA strategy.
-allowed-tools: [Read, Write, Glob, Grep, AskUserQuestion]
 ---
 
 # Test Specification Skill

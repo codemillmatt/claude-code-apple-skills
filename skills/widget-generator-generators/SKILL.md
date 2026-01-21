@@ -1,3 +1,8 @@
+---
+name: widget-generator-generators
+description: Generate WidgetKit widgets for iOS/macOS home screen and lock screen. Use when user wants to add widgets, mentions WidgetKit, or asks about widget timelines.
+---
+
 # Widget Generator
 
 Generate WidgetKit widgets for iOS/macOS home screen and lock screen.

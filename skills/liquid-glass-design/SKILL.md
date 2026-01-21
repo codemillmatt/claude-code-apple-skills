@@ -1,7 +1,6 @@
 ---
-name: liquid-glass
+name: liquid-glass-design
 description: Implement Liquid Glass design using .glassEffect() API for iOS/macOS 26+. Use when creating modern glass-based UI effects.
-allowed-tools: [Read, Write, Edit, Glob, Grep, AskUserQuestion]
 ---
 
 # Liquid Glass Design

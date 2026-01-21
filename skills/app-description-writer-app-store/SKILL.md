@@ -1,3 +1,8 @@
+---
+name: app-description-writer-app-store
+description: Generate compelling App Store descriptions that convert browsers into users. Use when user needs to write App Store description or prepare for update.
+---
+
 # App Description Writer
 
 Generate compelling App Store descriptions that convert browsers into users.

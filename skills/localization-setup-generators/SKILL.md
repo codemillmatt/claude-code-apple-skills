@@ -1,3 +1,8 @@
+---
+name: localization-setup-generators
+description: Generate internationalization (i18n) infrastructure for multi-language support in iOS/macOS apps. Use when user wants localization, mentions i18n, or needs RTL language support.
+---
+
 # Localization Setup Generator
 
 Generate internationalization (i18n) infrastructure for multi-language support in iOS/macOS apps.

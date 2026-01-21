@@ -1,7 +1,6 @@
 ---
-name: skill-creator
+name: skill-creator-shared
 description: Guides you through creating well-structured Claude Code skills with proper modularization, templates, and best practices. Use when creating new skills or improving existing ones.
-allowed-tools: [Read, Write, Glob, Grep, Bash]
 ---
 
 # Skill Creator

@@ -1,3 +1,8 @@
+---
+name: deep-linking-generators
+description: Generate deep linking infrastructure with URL schemes, Universal Links, and App Intents for Siri/Shortcuts. Use when user wants custom URLs, Universal Links, or Siri Shortcuts.
+---
+
 # Deep Linking Generator
 
 Generate deep linking infrastructure with URL schemes, Universal Links, and App Intents for Siri/Shortcuts.
